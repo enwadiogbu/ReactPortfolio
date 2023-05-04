@@ -37,20 +37,20 @@ export default function Profile() {
                             {""}
                             <h1>
                                 <Typical
-                                loop={Infinity}
-                                steps = {[
-                                    "Enthusiastic Developer 🔴",
-                                    1000,
-                                    "Full Stack Developer 💻",
-                                    1000,
-                                    "MERN Stack Developer 😎",
-                                    1000,
-                                    "Cross Platform Developer 🌐",
-                                    1000,
-                                    "React/React Native Developer 📲",
-                                    1000,
+                                    loop={Infinity}
+                                    steps = {[
+                                        "Enthusiastic Developer 🔴",
+                                        1000,
+                                        "Full Stack Developer 💻",
+                                        1000,
+                                        "MERN Stack Developer 😎",
+                                        1000,
+                                        "Cross Platform Developer 🌐",
+                                        1000,
+                                        "React/React Native Developer 📲",
+                                        1000,
 
-                                ]}
+                                    ]}
                                 />
                             </h1>
                             <span className='profile-role-tagline'>
