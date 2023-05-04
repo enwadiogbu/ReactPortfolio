@@ -1,9 +1,14 @@
 import React from 'react';
+import Profile from "./Profile/Profile";
+import Footer from "./Footer/Footer";
+import './Home.css';
 
-function Home(props) {
+export default function Home() {
     return (
-        <div></div>
+        <div className='home-container'>
+            <Profile />
+            <Footer />
+        </div>
     );
 }
 
-export default Home;
